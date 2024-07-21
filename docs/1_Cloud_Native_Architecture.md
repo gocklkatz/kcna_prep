@@ -1,4 +1,4 @@
-# Cloud Native Architecture Fundamentals
+# Cloud Native Architecture
 
 ## 1 Cloud Native Architecture Fundamentals
 
