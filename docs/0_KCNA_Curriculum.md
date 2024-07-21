@@ -15,7 +15,7 @@
 ### Service Mesh
 ### Storage
 
-## loud Native Architecture (16%)
+## Cloud Native Architecture (16%)
 ### Autoscaling
 ### Serverless
 ### Community and Governance
