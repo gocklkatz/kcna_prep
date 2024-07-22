@@ -7,20 +7,22 @@
 - Discuss the challenges of container networking and storage
 - Explain the benefits of a service mesh
 
-# Container Basics
+## Topics
 
-# Running Containers
+### Container Basics
 
-# Building Container Images
+### Running Containers
 
-# Security
+### Building Container Images
 
-# Container Orchestration Fundamentals
+### Security
 
-# Networking
+### Container Orchestration Fundamentals
 
-# Service Discorvery & DNS
+### Networking
 
-# Service Mesh
+### Service Discorvery & DNS
 
-# Storage
+### Service Mesh
+
+### Storage
