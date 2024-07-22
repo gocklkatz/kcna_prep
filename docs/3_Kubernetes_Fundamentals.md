@@ -14,6 +14,20 @@
 
 ## Topics
 
+## Container Orchestration (U)
+
+> Understand the problems that Container Orchestration resolves
+
+- How to handle lots (100, 1k, 10k, ...) of containers?
+- How do we run containers at scale? -> Container Orchestrator
+- Provisioning, deployment, scaling and more. Standards and frameworks. Integration with core components.
+- Provisioning and deployment of containers. Container availablility and self healing. Scheduling and the effective use of compute resources. Exposing container services. Authorisation and security. Storage for shared/persistent workloads. Autoscaling. Extended Functionality (CRD's)
+- Products: Openshift, Docker swarm, HashiCorp Nomad, Kubernetes
+
+### Kubernetes General (C)
+
+> Kubernetes, also known as K8s, is an open source system for automating deployment, scaling, and management of containerized applications. [Kubernetes Website](https://kubernetes.io/)
+
 ### Kubernetes Architecture
 
 ### Kubernetes Setup
