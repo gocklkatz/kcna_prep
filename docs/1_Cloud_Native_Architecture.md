@@ -1,5 +1,7 @@
 # Cloud Native Architecture
 
+Study Tips Count: 7
+
 ## Learning Objectives
 
 - Discuss the characteristics of Cloud Native Architecture

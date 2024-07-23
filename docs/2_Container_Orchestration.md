@@ -1,5 +1,7 @@
 # Container Orchestration
 
+Study Tips Count: 1
+
 ## Learning Objectives
 
 - Explain what a container is and how it differs from virtual machines

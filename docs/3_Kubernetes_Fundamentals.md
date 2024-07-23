@@ -1,5 +1,7 @@
 # Kubernetes Fundamentals
 
+Study Tips Count: 22 (Fundamentals + Deep Dive)
+
 ## Learning Objectives
 
 - Discuss the basic architecture of Kubernetes
