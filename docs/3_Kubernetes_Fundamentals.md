@@ -1,6 +1,6 @@
 # Kubernetes Fundamentals
 
-Study Tips Count: 22 (Fundamentals + Deep Dive)
+Study Tips Count: 20 (Fundamentals + Deep Dive)
 
 ## Learning Objectives
 
@@ -16,7 +16,7 @@ Study Tips Count: 22 (Fundamentals + Deep Dive)
 
 ## Topics
 
-## Container Orchestration (U)
+## Container Orchestration
 
 > Understand the problems that Container Orchestration resolves
 
@@ -26,7 +26,7 @@ Study Tips Count: 22 (Fundamentals + Deep Dive)
 - Provisioning and deployment of containers. Container availablility and self healing. Scheduling and the effective use of compute resources. Exposing container services. Authorisation and security. Storage for shared/persistent workloads. Autoscaling. Extended Functionality (CRD's)
 - Products: Openshift, Docker swarm, HashiCorp Nomad, Kubernetes
 
-### Kubernetes General (C)
+### Kubernetes General
 
 > Kubernetes, also known as K8s, is an open source system for automating deployment, scaling, and management of containerized applications. [Kubernetes Website](https://kubernetes.io/)
 
@@ -41,36 +41,38 @@ Study Tips Count: 22 (Fundamentals + Deep Dive)
 > - The hierarchy of Kubernetes components - From Cluster to Node to Pod to Container
 > - What is the CCM (Cloud Controller Manager) ad where this would reside in K8s
 
+### Kubernetes Pods
 
+### Kubernetes Namespaces
 
-### Kubernetes Setup
+### Kubernetes Deployments and ReplicaSets
+
+### Kubernetes Services
+
+### Kubernetes Jobs
+
+### Kubernetes ConfigMaps
+
+### Kubernetes Secrets
+
+### Kubernetes Labels
 
 ### Kubernetes API
 
-### Running Containers on Kubernetes
+### Kubernetes RBAC
 
-### Networking
+### Kubernetes Scheduling and NodeName
 
-### Scheduling
+### Kubernetes Storage
 
-### Kubernetes Objects
+### Kubernetes StatefulSets
 
-### Interacting with Kubernetes
+### Kubernetes NetworkPolicies
 
-### Pod Concept
-
-### Pod Lifecycle
-
-### Worload Objects
-
-### Networking Objects
-
-### Volume & Storage Objects
-
-### Configuration Objects
-
-### Autoscaling Objects
-
-### Scheudling Objects
+### Kubernetes Pod Disruption Budgets
 
 ### Kubernetes Security
+
+### Helm and Helm Charts
+
+### Service Meshes
