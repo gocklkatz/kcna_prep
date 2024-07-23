@@ -30,6 +30,17 @@
 
 ### Kubernetes Architecture
 
+> - The role of the kubelet and how it interacts with the CRI (Container Runtime Interface)
+> - The role of the kube-scheduler
+> - The role of the kube-proxy
+> - The role of the kubeapi-server
+> - The role of etcd
+> - Container Runtimes and the differences between high leel and low level runtimes
+> - The hierarchy of Kubernetes components - From Cluster to Node to Pod to Container
+> - What is the CCM (Cloud Controller Manager) ad where this would reside in K8s
+
+
+
 ### Kubernetes Setup
 
 ### Kubernetes API
