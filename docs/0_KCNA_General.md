@@ -37,6 +37,7 @@
 ## KCNA Exam
 
 - https://docs.linuxfoundation.org/tc-docs/certification/lf-cert-agreement
+- https://docs.linuxfoundation.org/tc-docs/certification/lf-handbook2
 - https://docs.linuxfoundation.org/tc-docs/certification/lf-handbook2/taking-the-exam
 - https://docs.linuxfoundation.org/tc-docs/certification/important-instructions-kcna
 - https://docs.linuxfoundation.org/tc-docs/certification/frequently-asked-questions-kcna
@@ -44,4 +45,3 @@
 - https://psi.wistia.com/medias/5kidxdd0ry
 - https://helpdesk.psionline.com/hc/en-gb/articles/4409608794260-PSI-Bridge-Platform-System-Requirements
 - https://syscheck.bridge.psiexams.com/
-- [Tutorial test](https://software.bridge.psiexams.com/api/token/ZPQU7GCW1HOI)
