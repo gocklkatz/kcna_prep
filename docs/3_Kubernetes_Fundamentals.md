@@ -53,6 +53,8 @@ Study Tips Count: 20 (Fundamentals + Deep Dive)
 
 - **etcd**: strongly consistent, distributed, key-value store. leader elections, network partitions. handles machine failures in a highly available configuration. source of truth. prod odd number of instances, recommended 5, recommended backups
 
+- **api**: kubeAPI server. main gateway for access, user access and component communication. RESTful API interface. stores all data in persistent storage backend, i.e. ETCD
+
 ### Kubernetes Pods
 
 ### Kubernetes Namespaces
