@@ -59,7 +59,13 @@ Study Tips Count: 20 (Fundamentals + Deep Dive)
 
 - **sched**: kube-scheduler. control plane process. static pod. determines valid nodes according to contraints and resources
 
-- **k-proxy**: kube-proxy. runs as a DaemonSet on every instance in the cluster. normal pod, not static pod. configures TCP/UDP and SCTP forwarding. 
+- **k-proxy**: kube-proxy. runs as a DaemonSet on every instance in the cluster. normal pod, not static pod. configures TCP/UDP and SCTP forwarding.
+
+- **coredns**: CoreDNS is a Kubernetes Deployment
+
+- **c-m**: Controller Manager. controllers are control loops that monitor the state of your cluster. controllers will make or request changes as required. replication controller, node controller, deployment controller
+
+- **c-c-m**: Cloud-Controller-Manager. Normally found in public cloud kubernetes offerings. bridge cloud provider functionality to kubernetes. LoadBalancer service: use of lb in k8s results in cloud provided load balancer. 
 
 ### Kubernetes Pods
 
