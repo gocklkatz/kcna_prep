@@ -44,7 +44,7 @@ Study Tips Count: 20 (Fundamentals + Deep Dive)
 > - The hierarchy of Kubernetes components - From Cluster to Node to Pod to Container
 > - What is the CCM (Cloud Controller Manager) ad where this would reside in K8s
 
-![Architecture Overview](https://github.com/gocklkatz/screenshots/blob/main/kcna/test1.png)
+![Architecture Overview](https://github.com/gocklkatz/screenshots/blob/main/kcna/k8s_architecture.jpg)
 
 - control plane (core components), nodes (workload)
 
