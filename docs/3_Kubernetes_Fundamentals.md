@@ -44,6 +44,8 @@ Study Tips Count: 20 (Fundamentals + Deep Dive)
 > - The hierarchy of Kubernetes components - From Cluster to Node to Pod to Container
 > - What is the CCM (Cloud Controller Manager) ad where this would reside in K8s
 
+![Architecture Overview](https://github.com/gocklkatz/screenshots/blob/main/kcna/test1.png)
+
 - control plane (core components), nodes (workload)
 
 - **kubelet**: runs on nodes and control plane, maintains pods, pod spec (description of pod yaml or json), runs core components in control plane, receives request via API or monitoring a directory, static pods
@@ -53,7 +55,7 @@ Study Tips Count: 20 (Fundamentals + Deep Dive)
 
 - **etcd**: strongly consistent, distributed, key-value store. leader elections, network partitions. handles machine failures in a highly available configuration. source of truth. prod odd number of instances, recommended 5, recommended backups
 
-- **api**: kubeAPI server. main gateway for access, user access and component communication. RESTful API interface. stores all data in persistent storage backend, i.e. ETCD
+- **api**: kubeAPI server. main gateway for access, user access and component communication. RESTful API interface. stores all data in persistent storage backend, i.e. ETCD. send commands to kubelet via API
 
 ### Kubernetes Pods
 
