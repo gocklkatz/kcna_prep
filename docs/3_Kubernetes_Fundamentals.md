@@ -48,16 +48,18 @@ Study Tips Count: 20 (Fundamentals + Deep Dive)
 
 - control plane (core components), nodes (workload)
 
-- **kubelet**: runs on nodes and control plane, maintains pods, pod spec (description of pod yaml or json), runs core components in control plane, receives request via API or monitoring a directory, static pods
+- **kubelet**: runs on nodes and control plane. maintains pods. pod spec (description of pod yaml or json). runs core components in control plane. receives request via API or monitoring a directory. static pods
 - **Container runtime interface (CRI)**: [link](https://kubernetes.io/docs/concepts/architecture/cri/), the CRI is a plugin interface which enables the kubelet to use a wide variety of container runtimes, without having a need to recompile the cluster components
-- **High level container runtime** (container engine): e.g. containerd, created by docker, CNCF graduated project, manages entire container lifecycle, pulls container images and stores them, uses low level container runtime (e.g. runc)
-- **Low level container runtime**: (runc, reference implementation, donated by Docker to OCI, OCI compatible container runtime), spawning and running containers, interacts with low level linux components like namespaces and cgroups, alternatives to runc: crun, kata-runtime, gVisor
+- **High level container runtime** (container engine): e.g. containerd. created by docker. CNCF graduated project. manages entire container lifecycle. pulls container images and stores them. uses low level container runtime (e.g. runc)
+- **Low level container runtime**: (runc, reference implementation, donated by Docker to OCI, OCI compatible container runtime). spawning and running containers. interacts with low level linux components like namespaces and cgroups. alternatives to runc: crun, kata-runtime, gVisor
 
 - **etcd**: strongly consistent, distributed, key-value store. leader elections, network partitions. handles machine failures in a highly available configuration. source of truth. prod odd number of instances, recommended 5, recommended backups
 
 - **api**: kubeAPI server. main gateway for access, user access and component communication. RESTful API interface. stores all data in persistent storage backend, i.e. ETCD. send commands to kubelet via API
 
-- **sched**: kube-scheduler, control plane process, static pod, determines valid nodes according to contraints and resources
+- **sched**: kube-scheduler. control plane process. static pod. determines valid nodes according to contraints and resources
+
+- **k-proxy**: kube-proxy. runs as a DaemonSet on every instance in the cluster. normal pod, not static pod. configures TCP/UDP and SCTP forwarding. 
 
 ### Kubernetes Pods
 
