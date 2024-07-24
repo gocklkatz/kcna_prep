@@ -21,10 +21,11 @@ Study Tips Count: 20 (Fundamentals + Deep Dive)
 > Understand the problems that Container Orchestration resolves
 
 - How to handle lots (100, 1k, 10k, ...) of containers?
-- How do we run containers at scale? -> Container Orchestrator
+- How do we run containers at scale? <br/>
+  -> **Container Orchestrator**
 - Provisioning, deployment, scaling and more. Standards and frameworks. Integration with core components.
 - Provisioning and deployment of containers. Container availablility and self healing. Scheduling and the effective use of compute resources. Exposing container services. Authorisation and security. Storage for shared/persistent workloads. Autoscaling. Extended Functionality (CRD's)
-- Products: Openshift, Docker swarm, HashiCorp Nomad, Kubernetes
+- Products: Openshift, Docker swarm, HashiCorp Nomad, **Kubernetes**
 
 ### Kubernetes General
 
@@ -40,6 +41,9 @@ Study Tips Count: 20 (Fundamentals + Deep Dive)
 > - Container Runtimes and the differences between high leel and low level runtimes
 > - The hierarchy of Kubernetes components - From Cluster to Node to Pod to Container
 > - What is the CCM (Cloud Controller Manager) ad where this would reside in K8s
+
+- control plane (major/system components), nodes (workload)
+- **Low level container runtime** (runc, reference implementation, donated by Docker to OCI), spawning and running containers, interacts with low level linux components like namespaces and cgroups, alternatives to runc: crun, kata-runtime, gVisor
 
 ### Kubernetes Pods
 
