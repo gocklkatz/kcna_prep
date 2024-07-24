@@ -42,9 +42,10 @@ Study Tips Count: 20 (Fundamentals + Deep Dive)
 > - The hierarchy of Kubernetes components - From Cluster to Node to Pod to Container
 > - What is the CCM (Cloud Controller Manager) ad where this would reside in K8s
 
-- control plane (major/system components), nodes (workload)
+- control plane (core components), nodes (workload)
 - **Low level container runtime** (runc, reference implementation, donated by Docker to OCI, OCI compatible container runtime), spawning and running containers, interacts with low level linux components like namespaces and cgroups, alternatives to runc: crun, kata-runtime, gVisor
-- **High level container runtime** (container engine) e.g. containerd, created by docker,CNCF graduated project, manages entire container lifecycle, pulls container images and stores them, uses low level container runtime (e.g. runc)
+- **High level container runtime** (container engine) e.g. containerd, created by docker, CNCF graduated project, manages entire container lifecycle, pulls container images and stores them, uses low level container runtime (e.g. runc)
+- **kubelet**, runs on nodes and control plane, maintains pods, pod spec (description of pod yaml or json), runs core components in control plane, receives request via API or monitoring a directory, static pods
 
 ### Kubernetes Pods
 
