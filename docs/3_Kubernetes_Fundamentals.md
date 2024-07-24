@@ -43,7 +43,8 @@ Study Tips Count: 20 (Fundamentals + Deep Dive)
 > - What is the CCM (Cloud Controller Manager) ad where this would reside in K8s
 
 - control plane (major/system components), nodes (workload)
-- **Low level container runtime** (runc, reference implementation, donated by Docker to OCI), spawning and running containers, interacts with low level linux components like namespaces and cgroups, alternatives to runc: crun, kata-runtime, gVisor
+- **Low level container runtime** (runc, reference implementation, donated by Docker to OCI, OCI compatible container runtime), spawning and running containers, interacts with low level linux components like namespaces and cgroups, alternatives to runc: crun, kata-runtime, gVisor
+- **High level container runtime** (container engine) e.g. containerd, created by docker,CNCF graduated project, manages entire container lifecycle, pulls container images and stores them, uses low level container runtime (e.g. runc)
 
 ### Kubernetes Pods
 
