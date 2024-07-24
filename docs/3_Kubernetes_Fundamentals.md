@@ -33,19 +33,25 @@ Study Tips Count: 20 (Fundamentals + Deep Dive)
 
 ### Kubernetes Architecture
 
-> - The role of the kubelet and how it interacts with the CRI (Container Runtime Interface)
+> - The role of the kubelet
+> - The role of Container Runtime Interface (CRI)
+> - The role of high level and low level container runtimes
+> - The role of etcd 
 > - The role of the kube-scheduler
 > - The role of the kube-proxy
 > - The role of the kubeapi-server
-> - The role of etcd
 > - Container Runtimes and the differences between high leel and low level runtimes
 > - The hierarchy of Kubernetes components - From Cluster to Node to Pod to Container
 > - What is the CCM (Cloud Controller Manager) ad where this would reside in K8s
 
 - control plane (core components), nodes (workload)
-- **Low level container runtime** (runc, reference implementation, donated by Docker to OCI, OCI compatible container runtime), spawning and running containers, interacts with low level linux components like namespaces and cgroups, alternatives to runc: crun, kata-runtime, gVisor
-- **High level container runtime** (container engine) e.g. containerd, created by docker, CNCF graduated project, manages entire container lifecycle, pulls container images and stores them, uses low level container runtime (e.g. runc)
-- **kubelet**, runs on nodes and control plane, maintains pods, pod spec (description of pod yaml or json), runs core components in control plane, receives request via API or monitoring a directory, static pods
+
+- **kubelet**: runs on nodes and control plane, maintains pods, pod spec (description of pod yaml or json), runs core components in control plane, receives request via API or monitoring a directory, static pods
+- **Container runtime interface (CRI)**: [link](https://kubernetes.io/docs/concepts/architecture/cri/), the CRI is a plugin interface which enables the kubelet to use a wide variety of container runtimes, without having a need to recompile the cluster components
+- **High level container runtime** (container engine): e.g. containerd, created by docker, CNCF graduated project, manages entire container lifecycle, pulls container images and stores them, uses low level container runtime (e.g. runc)
+- **Low level container runtime**: (runc, reference implementation, donated by Docker to OCI, OCI compatible container runtime), spawning and running containers, interacts with low level linux components like namespaces and cgroups, alternatives to runc: crun, kata-runtime, gVisor
+
+- **etcd**: strongly consistent, distributed, key-value store. leader elections, network partitions. handles machine failures in a highly available configuration. source of truth. prod odd number of instances, recommended 5, recommended backups
 
 ### Kubernetes Pods
 
