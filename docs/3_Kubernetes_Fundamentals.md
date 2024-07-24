@@ -37,9 +37,9 @@ Study Tips Count: 20 (Fundamentals + Deep Dive)
 > - The role of Container Runtime Interface (CRI)
 > - The role of high level and low level container runtimes
 > - The role of etcd 
+> - The role of the kubeapi-server
 > - The role of the kube-scheduler
 > - The role of the kube-proxy
-> - The role of the kubeapi-server
 > - Container Runtimes and the differences between high leel and low level runtimes
 > - The hierarchy of Kubernetes components - From Cluster to Node to Pod to Container
 > - What is the CCM (Cloud Controller Manager) ad where this would reside in K8s
@@ -56,6 +56,8 @@ Study Tips Count: 20 (Fundamentals + Deep Dive)
 - **etcd**: strongly consistent, distributed, key-value store. leader elections, network partitions. handles machine failures in a highly available configuration. source of truth. prod odd number of instances, recommended 5, recommended backups
 
 - **api**: kubeAPI server. main gateway for access, user access and component communication. RESTful API interface. stores all data in persistent storage backend, i.e. ETCD. send commands to kubelet via API
+
+- **sched**: kube-scheduler, control plane process, static pod, determines valid nodes according to contraints and resources
 
 ### Kubernetes Pods
 
