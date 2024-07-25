@@ -40,11 +40,11 @@ Study Tips Count: 20 (Fundamentals + Deep Dive)
 > - The role of the kubeapi-server
 > - The role of the kube-scheduler
 > - The role of the kube-proxy
-> - Container Runtimes and the differences between high leel and low level runtimes
+> - Container Runtimes and the differences between high level and low level runtimes
 > - The hierarchy of Kubernetes components - From Cluster to Node to Pod to Container
 > - What is the CCM (Cloud Controller Manager) ad where this would reside in K8s
 
-![Architecture Overview](https://github.com/gocklkatz/screenshots/blob/main/kcna/k8s_architecture.jpg)
+![Architecture Overview](https://github.com/gocklkatz/screenshots/blob/main/kcna/pics/k8s_architecture.jpg)
 
 - control plane (core components), nodes (workload)
 
@@ -55,7 +55,7 @@ Study Tips Count: 20 (Fundamentals + Deep Dive)
 
 - **etcd**: strongly consistent, distributed, key-value store. leader elections, network partitions. handles machine failures in a highly available configuration. source of truth. prod odd number of instances, recommended 5, recommended backups
 
-- **api**: kubeAPI server. main gateway for access, user access and component communication. RESTful API interface. stores all data in persistent storage backend, i.e. ETCD. send commands to kubelet via API
+- **api**: kubeapi-server. main gateway for access, user access and component communication. RESTful API interface. stores all data in persistent storage backend, i.e. ETCD. send commands to kubelet via API
 
 - **sched**: kube-scheduler. control plane process. static pod. determines valid nodes according to contraints and resources
 
@@ -68,6 +68,20 @@ Study Tips Count: 20 (Fundamentals + Deep Dive)
 - **c-c-m**: Cloud-Controller-Manager. Normally found in public cloud kubernetes offerings. bridge cloud provider functionality to kubernetes. LoadBalancer service: use of lb in k8s results in cloud provided load balancer. 
 
 ### Kubernetes Pods
+
+> - What is a pod?
+> - How to create pods (cli and yaml)
+> - How to access documentation related to pod specification (kubectl explain)
+> - How to execute a command in a running pod (kubectl exec)
+> - Pod restart policies (default value and available options)
+> - The difference between Declarative and Imperative aproaches when using kubectl
+> - How pods make use of the network namespace for a shared IP address
+> - How pods are able to communicate without the use of NAT or other complicated network setups
+> - Running multiple containers in a pod
+> - Accessing logs from a particular container when running multiple containers in a pod
+> - Accessing logs from a terminated container in a pod when running multiple containers
+> - What is a sidecar and how it could be implemented
+> - What are init containers
 
 ### Kubernetes Namespaces
 
