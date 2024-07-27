@@ -3,9 +3,16 @@
 Study Tips Count: 20 (Fundamentals + Deep Dive)
 
 ## Topics
-- Kubernetes General
-  - https://kubernetes.io/
-  - https://kubernetes.io/docs/reference/kubectl/  
+
+- General
+
+Kubernetes (https://kubernetes.io/)
+
+kubectl (https://kubernetes.io/docs/reference/kubectl/)
+
+```
+ kubectl [command] [TYPE] [NAME] [flags]
+```
 
 - [Container Orchestration](https://github.com/gocklkatz/screenshots/blob/main/kcna/docs/3_Kubernetes_Fundamentals.md#container-orchestration)
 - [Kubernetes Architecture](https://github.com/gocklkatz/screenshots/blob/main/kcna/docs/3_Kubernetes_Fundamentals.md#kubernetes-architecture)
