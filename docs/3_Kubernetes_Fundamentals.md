@@ -76,6 +76,14 @@ Forward one or more local ports to a pod.
 kubectl port-forward TYPE/NAME [options] [LOCAL_PORT:]REMOTE_PORT [...[LOCAL_PORT_N:]REMOTE_PORT_N]
 ```
 
+[kubectl exec](https://kubernetes.io/docs/reference/kubectl/generated/kubectl_exec/)
+
+```
+Execute a command in a container.
+
+kubectl exec (POD | TYPE/NAME) [-c CONTAINER] [flags] -- COMMAND [args...]
+```
+
 kubectl create deployment
 
 ```
