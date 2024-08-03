@@ -27,6 +27,12 @@ k3s (https://k3s.io/)
 The certified Kubernetes distribution built for IoT & Edge computing
 ```
 
+minikube (https://minikube.sigs.k8s.io/)
+
+```
+minikube quickly sets up a local Kubernetes cluster on macOS, Linux, and Windows.
+```
+
 ### kubectl commands
 
 [kubectl run](https://kubernetes.io/docs/reference/kubectl/generated/kubectl_run/)
@@ -96,6 +102,14 @@ kubectl exec (POD | TYPE/NAME) [-c CONTAINER] [flags] -- COMMAND [args...]
 Delete resources by file names, stdin, resources and names, or by resources and label selector.
 
 kubectl delete ([-f FILENAME] | [-k DIRECTORY] | TYPE [(NAME | -l label | --all)])
+```
+
+[kubectl explain](https://kubernetes.io/docs/reference/kubectl/generated/kubectl_explain/)
+
+```
+Describe fields and structure of various resources.
+
+kubectl explain TYPE [--recursive=FALSE|TRUE] [--api-version=api-version-group] [--output=plaintext|plaintext-openapiv2]
 ```
 
 kubectl create deployment
