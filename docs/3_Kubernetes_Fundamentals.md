@@ -50,6 +50,12 @@ The restart policy for this Pod. Legal values [Always, OnFailure, Never].
 
 --env strings
 Environment variables to set in the container.
+
+--dry-run string[="unchanged"]     Default: "none"
+Must be "none", "server", or "client". If client strategy, only print the object that would be sent, without sending it. If server strategy, submit server-side request without persisting the resource.
+
+-o, --output string
+Output format. One of: (json, yaml, name, go-template, go-template-file, template, templatefile, jsonpath, jsonpath-as-json, jsonpath-file).
 ```
 
 [kubectl get](https://kubernetes.io/docs/reference/kubectl/generated/kubectl_get/)
