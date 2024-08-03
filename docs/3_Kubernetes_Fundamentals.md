@@ -84,11 +84,15 @@ Execute a command in a container.
 kubectl exec (POD | TYPE/NAME) [-c CONTAINER] [flags] -- COMMAND [args...]
 ```
 
-kubectl create deployment
+[kubectl delete](https://kubernetes.io/docs/reference/kubectl/generated/kubectl_delete/)
 
 ```
- kubectl create deployment nginx --image=nginx
+Delete resources by file names, stdin, resources and names, or by resources and label selector.
+
+kubectl delete ([-f FILENAME] | [-k DIRECTORY] | TYPE [(NAME | -l label | --all)])
 ```
+
+kubectl create deployment
 
 kubectl get deployment
 
