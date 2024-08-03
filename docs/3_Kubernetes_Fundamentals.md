@@ -34,6 +34,18 @@ The certified Kubernetes distribution built for IoT & Edge computing
 ```
 Create and run a particular image in a pod.
 kubectl run NAME --image=image [--env="key=value"] [--port=port] [--dry-run=server|client] [--overrides=inline-json] [--command] -- [COMMAND] [args...]
+
+-i, --stdin
+Keep stdin open on the container in the pod, even if nothing is attached.
+
+-t, --tty
+Allocate a TTY for the container in the pod.
+
+--rm
+If true, delete the pod after it exits. Only valid when attaching to the container, e.g. with '--attach' or with '-i/--stdin'.
+
+--restart string     Default: "Always"
+The restart policy for this Pod. Legal values [Always, OnFailure, Never].
 ```
 
 [kubectl get](https://kubernetes.io/docs/reference/kubectl/generated/kubectl_get/)
