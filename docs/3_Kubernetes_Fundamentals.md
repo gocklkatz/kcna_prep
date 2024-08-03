@@ -27,15 +27,14 @@ k3s (https://k3s.io/)
 The certified Kubernetes distribution built for IoT & Edge computing
 ```
 
-### [Container Orchestration](https://github.com/gocklkatz/screenshots/blob/main/kcna/docs/3_Kubernetes_Fundamentals.md#container-orchestration)
+### kubectl commands
 
-### [Kubernetes Architecture](https://github.com/gocklkatz/screenshots/blob/main/kcna/docs/3_Kubernetes_Fundamentals.md#kubernetes-architecture)
+[kubectl run](https://kubernetes.io/docs/reference/kubectl/generated/kubectl_run/)
 
-### [Kubernetes Pods](https://github.com/gocklkatz/screenshots/blob/main/kcna/docs/3_Kubernetes_Fundamentals.md#kubernetes-pods)
-
-### [Kubernetes Namespaces](https://github.com/gocklkatz/screenshots/blob/main/kcna/docs/3_Kubernetes_Fundamentals.md#kubernetes-namespaces)
-
-### [Kubernetes Deployments and ReplicaSets](https://github.com/gocklkatz/screenshots/blob/main/kcna/docs/3_Kubernetes_Fundamentals.md#kubernetes-deployments-and-replicasets)
+```
+Create and run a particular image in a pod.
+kubectl run NAME --image=image [--env="key=value"] [--port=port] [--dry-run=server|client] [--overrides=inline-json] [--command] -- [COMMAND] [args...]
+```
 
 kubectl create deployment
 
