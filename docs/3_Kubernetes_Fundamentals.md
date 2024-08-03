@@ -50,6 +50,13 @@ Print the logs for a container in a pod or specified resource. If the pod has on
 kubectl logs [-f] [-p] (POD | TYPE/NAME) [-c CONTAINER]
 ```
 
+[kubectl port-forward](https://kubernetes.io/docs/reference/kubectl/generated/kubectl_port-forward/)
+
+```
+Forward one or more local ports to a pod.
+kubectl port-forward TYPE/NAME [options] [LOCAL_PORT:]REMOTE_PORT [...[LOCAL_PORT_N:]REMOTE_PORT_N]
+```
+
 kubectl create deployment
 
 ```
