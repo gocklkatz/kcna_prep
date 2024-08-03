@@ -36,6 +36,20 @@ Create and run a particular image in a pod.
 kubectl run NAME --image=image [--env="key=value"] [--port=port] [--dry-run=server|client] [--overrides=inline-json] [--command] -- [COMMAND] [args...]
 ```
 
+[kubectl get](https://kubernetes.io/docs/reference/kubectl/generated/kubectl_get/)
+
+```
+Display one or many resources
+kubectl get [(-o|--output=)json|yaml|name|go-template|go-template-file|template|templatefile|jsonpath|jsonpath-as-json|jsonpath-file|custom-columns|custom-columns-file|wide] (TYPE[.VERSION][.GROUP] [NAME | -l label] | TYPE[.VERSION][.GROUP]/NAME ...) [flags]
+```
+
+[kubectl logs](https://kubernetes.io/docs/reference/kubectl/generated/kubectl_logs/)
+
+```
+Print the logs for a container in a pod or specified resource. If the pod has only one container, the container name is optional.
+kubectl logs [-f] [-p] (POD | TYPE/NAME) [-c CONTAINER]
+```
+
 kubectl create deployment
 
 ```
