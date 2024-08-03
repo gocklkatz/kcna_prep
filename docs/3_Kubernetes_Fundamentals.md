@@ -119,3 +119,19 @@ Create a resource from a file or from stdin.
 
 kubectl create -f FILENAME
 ```
+
+[kubectl apply](https://kubernetes.io/docs/reference/kubectl/generated/kubectl_apply/)
+
+```
+Apply a configuration to a resource by file name or stdin.
+
+kubectl apply (-f FILENAME | -k DIRECTORY)
+```
+
+[kubectl describe](https://kubernetes.io/docs/reference/kubectl/generated/kubectl_describe/)
+
+```
+Show details of a specific resource or group of resources.
+
+kubectl describe (-f FILENAME | TYPE [NAME_PREFIX | -l label] | TYPE/NAME)
+```
