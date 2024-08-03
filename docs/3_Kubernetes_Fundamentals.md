@@ -112,16 +112,10 @@ Describe fields and structure of various resources.
 kubectl explain TYPE [--recursive=FALSE|TRUE] [--api-version=api-version-group] [--output=plaintext|plaintext-openapiv2]
 ```
 
-kubectl create deployment
+[kubectl create](https://kubernetes.io/docs/reference/kubectl/generated/kubectl_create/)
 
-kubectl get deployment
+```
+Create a resource from a file or from stdin.
 
-kubectl get replicaset
-
-kubectl get pods
-
-kubectl rollout history
-
-kubectl annote
-
-kubectl scale
+kubectl create -f FILENAME
+```
