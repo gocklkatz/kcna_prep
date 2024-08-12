@@ -11,3 +11,7 @@
 - Docker vs Containerd: Understanding the Differences and Choosing the Right Containerization Tool <br/>
   https://www.youtube.com/watch?v=21onkZfL2yM
 
+## Books
+
+- The Kubernetes Book: 2024 Edition (Nigel Poulton)<br/>
+  https://www.amazon.com/-/de/dp/B072TS9ZQZ
