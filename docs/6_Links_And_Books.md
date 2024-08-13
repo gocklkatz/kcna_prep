@@ -2,12 +2,12 @@
 
 ## Courses
 
-- Kubernetes Certified (KCNA) + Hands On Labs + Practice Exams<br/>
+- Kubernetes Certified (KCNA) + Hands On Labs + Practice Exams <br/>
   https://www.udemy.com/course/dive-into-cloud-native-containers-kubernetes-and-the-kcna
 
 ## Books
 
-- The Kubernetes Book: 2024 Edition (Nigel Poulton)<br/>
+- The Kubernetes Book: 2024 Edition (Nigel Poulton) <br/>
   https://www.amazon.com/-/de/dp/B072TS9ZQZ
 
 ## Links
@@ -20,4 +20,5 @@
   https://www.youtube.com/watch?v=u1LeMndEk70
 - Docker vs Containerd: Understanding the Differences and Choosing the Right Containerization Tool <br/>
   https://www.youtube.com/watch?v=21onkZfL2yM
-  
+- Kubernetes API Fundamentals <br/>
+  https://www.youtube.com/watch?v=_65Md2qar14
