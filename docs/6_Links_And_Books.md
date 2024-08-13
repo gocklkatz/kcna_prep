@@ -1,5 +1,10 @@
 # Links and Books
 
+## Courses
+
+- Kubernetes Certified (KCNA) + Hands On Labs + Practice Exams<br/>
+  https://www.udemy.com/course/dive-into-cloud-native-containers-kubernetes-and-the-kcna
+
 ## Books
 
 - The Kubernetes Book: 2024 Edition (Nigel Poulton)<br/>
