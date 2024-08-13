@@ -1,4 +1,4 @@
-# Links and Books
+# Courses, Links and Books
 
 ## Courses
 
