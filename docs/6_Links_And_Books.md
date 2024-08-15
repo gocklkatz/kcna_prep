@@ -24,6 +24,8 @@
   https://www.youtube.com/watch?v=_65Md2qar14
 - How does Kubernetes create a Pod? <br/>
   https://www.youtube.com/watch?v=BgrQ16r84pM
+- How the Kubernetes scheduler works <br/>
+  https://www.youtube.com/watch?v=rDCWxkvPlAw
 
 ## Public Cloud K8s Providers
 
