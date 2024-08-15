@@ -28,6 +28,8 @@
   https://www.youtube.com/watch?v=rDCWxkvPlAw
 - How Pods and the Pod Lifecycle work in Kubernetes <br/>
   https://www.youtube.com/watch?v=wlYESb124xM
+- Networking with Kubernetes <br/>
+  https://www.youtube.com/watch?v=WwQ62OyCNz4
 
 ## Public Cloud K8s Providers
 
