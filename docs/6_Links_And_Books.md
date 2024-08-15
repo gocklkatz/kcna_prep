@@ -34,6 +34,10 @@
   https://www.youtube.com/watch?v=WwQ62OyCNz4
 - Kubernetes Volumes explained <br/>
   https://www.youtube.com/watch?v=0swOh5C3OVM
+- What is a Container? <br/>
+  https://www.youtube.com/watch?v=EnJ7qX9fkcU
+- The Benefits of Containers <br/>
+  https://www.youtube.com/watch?v=cCTLjAdIQho
 
 ## Public Cloud K8s Providers
 
