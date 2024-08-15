@@ -22,3 +22,9 @@
   https://www.youtube.com/watch?v=21onkZfL2yM
 - Kubernetes API Fundamentals <br/>
   https://www.youtube.com/watch?v=_65Md2qar14
+
+## Public Cloud K8s Providers
+
+AWS
+- https://aws.amazon.com/kubernetes/
+- https://aws.amazon.com/eks/
