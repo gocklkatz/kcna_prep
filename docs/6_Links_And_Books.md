@@ -32,6 +32,8 @@
   https://www.youtube.com/watch?v=WwQ62OyCNz4
 - Kubernetes Volumes explained <br/>
   https://www.youtube.com/watch?v=0swOh5C3OVM
+- Kubernetes Design Principles: Understand the Why <br/>
+  https://www.youtube.com/watch?v=ZuIQurh_kDk
 
 ## Public Cloud K8s Providers
 
