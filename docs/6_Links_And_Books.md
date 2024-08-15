@@ -25,14 +25,17 @@
 
 ## Public Cloud K8s Providers
 
-AWS
+AWS (EKS)
 - https://aws.amazon.com/kubernetes/
 - https://aws.amazon.com/eks/
 
-GCP
+GCP (GKE)
 - https://cloud.google.com/learn/what-is-kubernetes
 - https://cloud.google.com/kubernetes-engine
 
-Azure
+Azure (AKS)
 - https://learn.microsoft.com/en-us/azure/aks/what-is-aks
 - https://azure.microsoft.com/en-us/products/kubernetes-service
+
+DigitalOcean Kubernetes (DOKS)
+- https://www.digitalocean.com/products/kubernetes
