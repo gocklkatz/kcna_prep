@@ -12,6 +12,8 @@
 
 ## Links
 
+- Kubernetes Design Principles: Understand the Why <br/>
+  https://www.youtube.com/watch?v=ZuIQurh_kDk
 - OCI, CRI, ??: Making Sense of the Container Runtime Landscape in Kubernetes - Phil Estes, IBM <br/>
   https://www.youtube.com/watch?v=RyXL1zOa8Bw
 - Let's Try All the CRI Runtimes: Part 2: Answering the Why Question! - Phil Estes, IBM <br/>
@@ -32,8 +34,6 @@
   https://www.youtube.com/watch?v=WwQ62OyCNz4
 - Kubernetes Volumes explained <br/>
   https://www.youtube.com/watch?v=0swOh5C3OVM
-- Kubernetes Design Principles: Understand the Why <br/>
-  https://www.youtube.com/watch?v=ZuIQurh_kDk
 
 ## Public Cloud K8s Providers
 
