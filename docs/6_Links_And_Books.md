@@ -28,3 +28,7 @@
 AWS
 - https://aws.amazon.com/kubernetes/
 - https://aws.amazon.com/eks/
+
+GCP
+- https://cloud.google.com/learn/what-is-kubernetes
+- https://cloud.google.com/kubernetes-engine
