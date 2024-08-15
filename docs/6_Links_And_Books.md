@@ -32,3 +32,7 @@ AWS
 GCP
 - https://cloud.google.com/learn/what-is-kubernetes
 - https://cloud.google.com/kubernetes-engine
+
+Azure
+- https://learn.microsoft.com/en-us/azure/aks/what-is-aks
+- https://azure.microsoft.com/en-us/products/kubernetes-service
