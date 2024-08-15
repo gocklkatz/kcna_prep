@@ -26,6 +26,8 @@
   https://www.youtube.com/watch?v=BgrQ16r84pM
 - How the Kubernetes scheduler works <br/>
   https://www.youtube.com/watch?v=rDCWxkvPlAw
+- How Pods and the Pod Lifecycle work in Kubernetes <br/>
+  https://www.youtube.com/watch?v=wlYESb124xM
 
 ## Public Cloud K8s Providers
 
