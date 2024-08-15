@@ -22,6 +22,8 @@
   https://www.youtube.com/watch?v=21onkZfL2yM
 - Kubernetes API Fundamentals <br/>
   https://www.youtube.com/watch?v=_65Md2qar14
+- How does Kubernetes create a Pod? <br/>
+  https://www.youtube.com/watch?v=BgrQ16r84pM
 
 ## Public Cloud K8s Providers
 
