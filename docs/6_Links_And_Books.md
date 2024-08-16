@@ -42,6 +42,8 @@
   https://www.youtube.com/watch?v=cCTLjAdIQho
 - Kubernetes StatefulSet simply explained <br/>
   https://www.youtube.com/watch?v=pPQKAR1pA9U
+- Understanding StatefulSets in Kubernetes <br/>
+  https://www.youtube.com/watch?v=zj6r_EEhv6s
 
 ## Public Cloud K8s Providers
 
