@@ -40,6 +40,8 @@
   https://www.youtube.com/watch?v=EnJ7qX9fkcU
 - The Benefits of Containers <br/>
   https://www.youtube.com/watch?v=cCTLjAdIQho
+- Kubernetes StatefulSet simply explained <br/>
+  https://www.youtube.com/watch?v=pPQKAR1pA9U
 
 ## Public Cloud K8s Providers
 
