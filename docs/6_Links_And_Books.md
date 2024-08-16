@@ -9,6 +9,8 @@
 
 - The Kubernetes Book: 2024 Edition (Nigel Poulton) <br/>
   https://www.amazon.com/-/de/dp/B072TS9ZQZ
+- Kubernetes in Action (Marko Luksa) <br/>
+  https://www.amazon.com/Kubernetes-Action-Marko-Luksa/dp/1617293725
 
 ## Links
 
