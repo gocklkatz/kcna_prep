@@ -44,6 +44,8 @@
   https://www.youtube.com/watch?v=pPQKAR1pA9U
 - Understanding StatefulSets in Kubernetes <br/>
   https://www.youtube.com/watch?v=zj6r_EEhv6s
+- Persistent Volumes on Kubernetes for beginners <br/>
+  https://www.youtube.com/watch?v=ZxC6FwEc9WQ
 
 ## Public Cloud K8s Providers
 
