@@ -48,6 +48,8 @@
   https://www.youtube.com/watch?v=ZxC6FwEc9WQ
 - Kubernetes Network Policies Explained <br/>
   https://www.youtube.com/watch?v=18FEA5xXBGY
+- Kustomize - How to Simplify Kubernetes Configuration Management <br/>
+  https://www.youtube.com/watch?v=Twtbg6LFnAg
 
 ## Public Cloud K8s Providers
 
