@@ -46,6 +46,8 @@
   https://www.youtube.com/watch?v=zj6r_EEhv6s
 - Persistent Volumes on Kubernetes for beginners <br/>
   https://www.youtube.com/watch?v=ZxC6FwEc9WQ
+- Kubernetes Network Policies Explained <br/>
+  https://www.youtube.com/watch?v=18FEA5xXBGY
 
 ## Public Cloud K8s Providers
 
