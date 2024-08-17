@@ -4,6 +4,8 @@
 
 - Kubernetes Certified (KCNA) + Hands On Labs + Practice Exams <br/>
   https://www.udemy.com/course/dive-into-cloud-native-containers-kubernetes-and-the-kcna
+- Kubernetes and Cloud-Native Associate (KCNA) <br/>
+  https://learn.kodekloud.com/user/courses/kubernetes-and-cloud-native-associate-kcna
 
 ## Books
 
