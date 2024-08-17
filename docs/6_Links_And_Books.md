@@ -52,6 +52,8 @@
   https://www.youtube.com/watch?v=Twtbg6LFnAg
 - Helm vs Kustomize - The Fight Between Templating and Patching in Kubernetes <br/>
   https://www.youtube.com/watch?v=ZMFYSm0ldQ0
+- Pod Disruption Budget in Kubernetes: What You Need to Know <br/>
+  https://www.youtube.com/watch?v=QTP5aFEiKoc
 
 ## Public Cloud K8s Providers
 
