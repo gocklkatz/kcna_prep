@@ -50,6 +50,8 @@
   https://www.youtube.com/watch?v=18FEA5xXBGY
 - Kustomize - How to Simplify Kubernetes Configuration Management <br/>
   https://www.youtube.com/watch?v=Twtbg6LFnAg
+- Helm vs Kustomize - The Fight Between Templating and Patching in Kubernetes <br/>
+  https://www.youtube.com/watch?v=ZMFYSm0ldQ0
 
 ## Public Cloud K8s Providers
 
