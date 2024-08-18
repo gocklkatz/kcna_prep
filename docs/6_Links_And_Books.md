@@ -79,3 +79,13 @@ Oracle Container Engine for Kubernetes (OKE)
 
 Red Hat OpenShift Kubernetes Engine
 - https://www.redhat.com/en/technologies/cloud-computing/openshift/kubernetes-engine
+
+## Kubernetes Security
+
+- Security Context for a Pod or Container, https://kubernetes.io/docs/tasks/configure-pod-container/security-context/
+- Pod Security Policies (PSP), https://kubernetes.io/docs/concepts/security/pod-security-policy/
+- Kyverno (https://kyverno.io/), Kubernetes Native Policy Management
+- Falco (https://falco.org/), Detect security threats in real time
+- Open Policy Agent (https://www.openpolicyagent.org/), Policy-based control for cloud native environments
+- Kubescape (https://kubescape.io/), Comprehensive Kubernetes Security from Development to Runtime
+- OpenID Connect (OIDC), https://openid.net/developers/how-connect-works/
