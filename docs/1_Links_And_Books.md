@@ -54,6 +54,8 @@
   https://www.youtube.com/watch?v=QTP5aFEiKoc
 - What are Kubernetes Enhancement Proposals (KEPs)? <br/>
   https://www.youtube.com/watch?v=B810TDzTQsQ
+- Kubernetes SIGs: What They Are and How They Work <br/>
+  https://www.youtube.com/watch?v=EoKuPoFXY-k
 
 ## YAML
   
