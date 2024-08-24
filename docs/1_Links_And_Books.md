@@ -52,6 +52,8 @@
   https://www.youtube.com/watch?v=ZMFYSm0ldQ0
 - Pod Disruption Budget in Kubernetes: What You Need to Know <br/>
   https://www.youtube.com/watch?v=QTP5aFEiKoc
+- What are Kubernetes Enhancement Proposals (KEPs)? <br/>
+  https://www.youtube.com/watch?v=B810TDzTQsQ
 
 ## YAML
   
