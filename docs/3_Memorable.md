@@ -9,3 +9,6 @@ Source: Kubernetes Design Principles: Understand the Why - Saad Ali, Google (htt
 
 ![image](https://github.com/user-attachments/assets/a3c739bc-0291-4d05-a658-52531601e084)
 Source: Kubernetes - Services Explained in 15 Minutes! (https://www.youtube.com/watch?v=5lzUpDtmWgM)
+
+![image](https://github.com/user-attachments/assets/f12bde9f-0d7e-4d05-a308-387cdd5d5069)
+Source: Container Storage Interface (Kodekloud, Kubernetes and Cloud-Native Associate (KCNA))
